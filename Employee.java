@@ -7,18 +7,22 @@ public class Employee extends Person {
 	{
 		
 	}
-	public Employee(String n, String a, String e, String p, double s) {
+	public Employee(String n, String a, String e, String p, double s) 
+	{
 		this.salary=s;
 		
 	}
-	public double getSalary() {
+	public double getSalary() 
+	{
 		return salary;
 	}
-	public void setSalary(double salary) {
+	public void setSalary(double salary) 
+	{
 		this.salary = salary;
 	}
 	
-	public String toString() {
+	public String toString() 
+	{
 		return "Employee";
 	}
 
