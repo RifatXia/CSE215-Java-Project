@@ -1,31 +1,41 @@
 package project;
 
-public class Faculty extends Employee{
-	
-	private String designation,department;
+public class Faculty extends Person
+{
+	public String department, salary;
 	
 	public Faculty()
 	{
 		
 	}
-	public Faculty(String n, String a, String e, String p, double s,String d,String dep) {
-		this.designation=d;
-		this.department=dep;
+	public Faculty(String n, String a, String p, String id, String d, String s) 
+	{
+		super(n, a, p, id);
+		this.department = d;
+		this.salary = s;
 	}
-	public String getDesignation() {
-		return designation;
-	}
-	public void setDesignation(String designation) {
-		this.designation = designation;
-	}
-	public String getDepartment() {
+	
+	public String getDepartment() 
+	{
 		return department;
 	}
-	public void setDepartment(String department) {
+	public void setDepartment(String department) 
+	{
 		this.department = department;
 	}
+	
+	public String getSalary()
+	{
+		return salary;
+	}
+	
+	public void setSalary(String salary)
+	{
+		this.salary = salary;
+	}
 
-	public String toString() {
+	public String toString() 
+	{
 		return "Faculty";
 	}
 }
