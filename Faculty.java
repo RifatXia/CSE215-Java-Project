@@ -8,9 +8,9 @@ public class Faculty extends Person
 	{
 		
 	}
-	public Faculty(String n, String a, String p, String id, String d, String s) 
+	public Faculty(String n, String i, String a, String p, String d, String s)
 	{
-		super(n, a, p, id);
+		super(n, i, a, p);
 		this.department = d;
 		this.salary = s;
 	}
@@ -34,8 +34,9 @@ public class Faculty extends Person
 		this.salary = salary;
 	}
 
-	public String toString() 
+	@Override
+	public String toString()
 	{
-		return "Faculty";
+		return super.name + " " + super.id + " " + super.address + " " + super.phone + " " + department + " " + salary;
 	}
 }

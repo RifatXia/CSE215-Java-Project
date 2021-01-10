@@ -29,7 +29,7 @@ public class Page1 implements ActionListener
 		panel.setBackground(Color.DARK_GRAY);
 		frame.add(panel);
 		
-		JLabel intro = new JLabel("  Mastermind International School");
+		JLabel intro = new JLabel("Mastermind International School");
 		intro.setFont(new Font("Serif", Font.BOLD, 16));
 		intro.setForeground(Color.white);
 		intro.setBounds(120, 120, 450, 25);
@@ -56,7 +56,7 @@ public class Page1 implements ActionListener
 		panel.add(password);
 		
 		button = new JButton("Login");
-		button.setBounds(120, 260, 80, 30);
+		button.setBounds(120, 250, 80, 30);
 		button.addActionListener(this);
 		panel.add(button);
 		
@@ -74,7 +74,7 @@ public class Page1 implements ActionListener
 		String user = userText.getText();
 		String userPass = password.getText();
 		
-		if(user.equals("a") && userPass.equals("a"))
+		if(user.equals("Zia") && userPass.equals("Prome"))
 		{
 			success.setText("Login Successfull!!");
 			frame.setVisible(false);

@@ -1,8 +1,7 @@
 package project;
 
-public class Person 
+public abstract class Person 
 {
-
 	public String name, address, phone, id;
 	
 	public Person()
@@ -10,7 +9,7 @@ public class Person
 		
 	}
 	
-	public Person(String n, String a, String p, String i) 
+	public Person(String n, String i, String a, String p) 
 	{
 		this.name = n;
 		this.address = a;
@@ -58,8 +57,5 @@ public class Person
 		this.id = id;
 	}
 	
-	public String toString() 
-	{
-		return "Person";
-	}
+	public abstract String toString();
 }
