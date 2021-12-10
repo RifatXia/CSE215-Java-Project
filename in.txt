@@ -34,11 +34,6 @@ Joy
 Chittagong
 741285
 1
-Pushpita
-201
-Noakhali
-011235
-1
 Asad
 365
 Chittagong
@@ -122,12 +117,6 @@ Chittagong
 741285
 Mecha
 350000
-2
-Pushpita
-201
-Noakhali
-0178644
-CSE
 369852
 2
 Asad
